@@ -8,6 +8,39 @@ ha folé viszem az egeret változon a szine
 
 
 a kulon css kell mindenhez de az oldalakizas.css mindehez kell*/
+
+h1{
+    text-align: center;
+    border-bottom:5px double black ;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+li{
+    list-style-type: none;
+}
+a:hover{
+    background-color: aqua;
+
+}
+footer{
+    text-align: center;
+    border-top: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
 /* oladl alakitás */
 main{
     display: grid;
