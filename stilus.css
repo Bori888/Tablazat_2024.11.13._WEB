@@ -1,0 +1,28 @@
+table,td,th{
+    border:3px solid rgb(56, 60, 126) ;
+    border-collapse:collapse ;/*cellák közötti rések eltüntetése*/
+
+}
+table{
+    width: 80%;
+    margin: auto;
+}
+main{
+    background-color: rgb(156, 219, 198);
+}
+th {
+    background-color: aliceblue;
+    color: #4a63ee;
+}
+tr:nth-child(odd){/*minden páratlan sor formázas*/
+    background-color: antiquewhite;
+    color: aqua;
+
+}
+table>thead>tr{/* az eloso sor */
+    border: 5px solid darkblue;
+}
+.reszponzivTablazat{
+    width: 100%;
+    overflow-x:scroll ;/* berak egfy görgetöt */
+}
