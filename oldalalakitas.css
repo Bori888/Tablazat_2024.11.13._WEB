@@ -32,6 +32,23 @@ footer{
     border-top: 1px solid black;
 }
 
+table,td,th{
+
+    border-collapse:collapse ;/*cellák közötti rések eltüntetése*/
+
+}
+table{
+    width: 80%;
+    margin: auto;
+}
+main{
+    background-color: rgb(156, 219, 198);
+}
+
+.reszponzivTablazat{
+    width: 100%;
+    overflow-x:scroll ;/* berak egfy görgetöt */
+}
 
 
 

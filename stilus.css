@@ -23,7 +23,3 @@ tr:nth-child(odd){/*minden páratlan sor formázas*/
 table>thead>tr{/* az eloso sor */
     border: 5px solid darkblue;
 }
-.reszponzivTablazat{
-    width: 100%;
-    overflow-x:scroll ;/* berak egfy görgetöt */
-}
