@@ -8,3 +8,46 @@ ha folé viszem az egeret változon a szine
 
 
 a kulon css kell mindenhez de az oldalakizas.css mindehez kell*/
+/* oladl alakitás */
+main{
+    display: grid;
+    grid-template-columns:1fr 4fr 2fr;
+    grid-template-areas:
+        "h h h"
+        "n ar as"
+        "f f f "
+        ;
+}
+
+head{
+    grid-area: h;/* elnevezés */
+}
+nav{
+    grid-area: n;
+    
+}
+article{
+    grid-area: ar;
+}
+aside{
+    grid-area: as;
+}
+footer{
+    grid-area: f;
+}
+
+@media screen and (max-width: 700px) {
+    main{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-areas:
+            "h"
+            "n"
+            "ar"
+            "as"
+            "f"
+            ;
+    }
+
+    
+}
