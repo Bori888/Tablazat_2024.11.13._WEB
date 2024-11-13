@@ -1,7 +1,9 @@
-tr{
+tr {
     color: rgb(82, 44, 44);
     text-align: center;
 }
+h2 {
+    color: rgb(82, 44, 44);}
 tr{
     border-bottom:1px solid black ;
 }
